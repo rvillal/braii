@@ -243,7 +243,7 @@ const render = turnIntoDelayableExecution(renderDelay, () => {
   const source = 'include <' + model_path + '>';
   const model_dir = model_path.split(/[\\/]/)[0];
   const timestamp = Date.now();
-  metaElement.innerText = 'rendering...';
+  metaElement.innerText = 'renderizando...';
   metaElement.title = null;
   runButton.disabled = true;
   setExecuting(true);
