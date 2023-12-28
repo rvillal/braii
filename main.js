@@ -367,7 +367,7 @@ function setState(state) {
     features = new Set(state.features);
     Object.keys(featureCheckboxes).forEach(f => featureCheckboxes[f].checked = features.has(f));
   }
-  setAutoRotate(state.autorotate ?? true)
+  setAutoRotate(state.autorotate ?? false)
   setViewerFocused(state.viewerFocused ?? false);
 }
 

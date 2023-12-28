@@ -18,8 +18,8 @@
     const outstl_name = 'model_out.stl';
   
     const model_default_params = {
-      Braii1: "test",
-      Braii2: "test",
+      Braii1: "Linea 1",
+      Braii2: "Linea 2",
       //zsize: 10,
     };
     
@@ -216,33 +216,33 @@
       <div id="params">
       
       </div>
-      <div>
+      <!--div>
       <br/>
       <a href='' id="permalink">Link to current parameters</a>
       </div>
       <div class="logs-container">
         <pre><code id="logs"></code></pre>
-      </div>
+      </div-->
     </div>
     <div id="view-panel" class="col">
       <div class="text title desktop">
-        <h2>Parametric Web Generator</h2>
+        <h2>Generador Braii</h2>
       </div>
       <div class="text desktop">
         <span class="text-fragment">
-          <a target="_blank" href="https://github.com/DSchroer/openscad-wasm">WASM build</a>
-          + <a target="_blank" href="https://github.com/omrips/viewstl">STL Viewer</a>
+          <!--a target="_blank" href="https://github.com/DSchroer/openscad-wasm">WASM build</a>
+          + <a target="_blank" href="https://github.com/omrips/viewstl">STL Viewer</a-->
         </span>
       </div>
       <div class="text desktop">
       </div>
       <div class="row text">
-        <button class="button settings" id="run">Render (Ctrl+Enter)</button>
-        <button class="button settings" id="kill" disabled>Kill</button>
+        <button class="button settings" id="run">Renderizar (Ctrl+Enter)</button>
+        <button class="button settings" id="kill" disabled>Cancelar</button>
         <div class="text-fragment" id="link-container"></div>
         <div class="text-fragment settings" id="meta"></div>
         <span class="spacer settings"></span>
-        <span class="text-fragment settings"><input type="checkbox" id="autorotate" checked>Rotate</span>
+        <span class="text-fragment settings"><input type="checkbox" id="autorotate" checked>Rotar</span>
         <span class="spacer settings"></span>
       </div>
       <div id="viewer" tabindex="0"></div>
